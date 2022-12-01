@@ -1,0 +1,12 @@
+query patientdata {
+  patient (order_by: {id: asc}) {
+    id
+    full_name
+    gender
+    bloodtype
+    address
+    birthdate
+    patient_code
+    national_id
+  }
+}
